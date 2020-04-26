@@ -1,0 +1,36 @@
+.o-categories h1{
+    margin: 1rem 0rem 0rem 1rem;
+    font-size: 1.6rem;
+    color: white;
+    border-bottom: 1px solid white;
+
+
+}
+.o-movies{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-left: 0.4rem;
+}
+
+.o-movies::-webkit-scrollbar {
+    width: 2em;
+    height: 0.5em;
+
+}
+ 
+.o-movies::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    margin: 0em 0em 0em 1em ;
+    border-radius: 10px;
+
+}
+ 
+.o-movies::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  border-radius: 10px;
+
+
+}

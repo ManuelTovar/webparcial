@@ -1,0 +1,61 @@
+.o-img-container{
+    position: relative ;
+
+}
+
+.o-img{
+
+    display: block;
+    height: 11rem;
+    width: 22em;
+    transition:  .3s;
+    margin-bottom: 1rem;
+    cursor: pointer;
+
+}
+
+.o-img-container:hover .o-img {
+
+    transform: scale(1.06);
+    box-shadow: 0.0rem 0.0rem 0.3rem 0.3rem rgb(194, 194, 194);
+    -webkit-transition: all .3s ease-in-out;    
+    cursor: pointer;
+
+
+}
+
+.o-overlay{
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(110, 110, 110, 0.3)
+}
+
+.o-img-container:hover .o-overlay{
+    opacity: 1;
+    transform: scale(1.06);
+    box-shadow: 0.0rem 0.0rem 0.3rem 0.3rem rgb(194, 194, 194);
+    -webkit-transition: all .3s ease-in-out;
+    cursor: pointer;
+
+}
+
+.o-text{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    cursor: pointer;
+
+}
+
